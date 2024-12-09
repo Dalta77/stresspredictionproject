@@ -1,7 +1,6 @@
 import streamlit as st
 import joblib
 import numpy as np
-import matplotlib.pyplot as plt
 
 # Load model dan encoder
 try:
