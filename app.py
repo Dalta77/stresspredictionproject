@@ -44,12 +44,12 @@ if st.button("Prediksi"):
         st.success(f"Tingkat Stres Anda: {stress_level}")
 
         # Visualisasi hasil prediksi
-        fig, ax = plt.subplots()
-        ax.barh([stress_level], [1], color="skyblue")
-        ax.set_xlabel('Prediksi')
-        ax.set_title('Tingkat Stres Prediksi')
-        ax.set_xlim(0, 1)
-        st.pyplot(fig)
+        # fig, ax = plt.subplots()
+        # ax.barh([stress_level], [1], color="skyblue")
+        # ax.set_xlabel('Prediksi')
+        # ax.set_title('Tingkat Stres Prediksi')
+        # ax.set_xlim(0, 1)
+        # st.pyplot(fig)
 
         # Penjelasan tambahan
         st.markdown("""
